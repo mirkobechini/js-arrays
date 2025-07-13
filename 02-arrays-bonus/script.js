@@ -19,6 +19,16 @@ for (let i = 0; i < teachers.length; i++) {
 
 console.log(reversedTeachers);
 
+/*
+soluzione con push
+
+for (let i = teachers.length - 1; i > 0; i--) {
+  const thisTeacher = teachers[i];
+  reversedTeachers.push(thisTeacher);
+}
+
+*/
+
 // 2. Crea un nuovo array chiamato 'longNames' che contenga solo gli insegnanti
 // con un nome di lunghezza maggiore o uguale a 5 caratteri
 const longNames = [];
@@ -49,7 +59,7 @@ for (let i = 0; i < teachers.length; i++) {
 console.log(isFabioPresent);
 
 
-// 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
+// 5. Unisci tutti gli insegnanti nell'array teachers in una stringa separata da virgole e salvala nella variabile teachersString
 let teachersString = null;
 for (let i = 0; i < teachers.length; i++) {
   const thisTeacher = teachers[i];
