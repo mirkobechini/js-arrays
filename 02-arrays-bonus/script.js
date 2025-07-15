@@ -56,6 +56,7 @@ for (let i = 0; i < teachers.length; i++) {
   const thisTeacher = teachers[i];
   if (thisTeacher === "Fabio") {
     isFabioPresent = true;
+    break
   }
 }
 console.log(isFabioPresent);
